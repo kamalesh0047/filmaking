@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { motion } from "motion/react";
+import { motion } from "framer-motion"
 import { Film, User, Mail, Phone, MessageSquare, CheckCircle } from "lucide-react";
 import { useState } from "react";
 

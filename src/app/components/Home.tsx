@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion"
 import { PlayCircle, CheckCircle2, ChevronRight, Check } from "lucide-react";
 import { Link } from "react-router";
 import { Testimonials } from "./Testimonials";
