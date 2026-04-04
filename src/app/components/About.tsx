@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
-import { Film, Award, Youtube, Instagram, Star } from "lucide-react";
-
+import { Film, Award, Youtube, Instagram, Star } from "lucide-react"
+import mentor from "../../assets/mentor.jpeg"
 export function About() {
   return (
     <div className="flex-1 w-full bg-black">
@@ -40,13 +40,13 @@ export function About() {
                 Your Guide
               </div>
 
-              <h2 className="text-4xl md:text-5xl font-bold uppercase text-white leading-tight">
-                Al Qayum <span className="text-orange-500">Nizar</span>
-              </h2>
-
-              <p className="text-lg text-neutral-300 leading-relaxed">
-                As a passionate filmmaker and educator, Al Qayum Nizar focuses on practical, accessible filmmaking techniques.
-              </p>
+              <div className="text-lg text-neutral-300 leading-relaxed space-y-2">
+  <p>Filmmaker | Creator | Storytelling Coach 📽</p>
+  <p>5+ yrs in narration | Film educator 🎥</p>
+  <p className="text-orange-400 font-semibold">
+    Follow to master cinematic storytelling & direction 📹
+  </p>
+</div>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="bg-black border border-white/10 p-6 rounded-2xl">
@@ -63,12 +63,22 @@ export function About() {
               </div>
 
               <div className="flex gap-4 pt-4">
-                <a href="#" className="p-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-orange-500 hover:text-black transition-all">
-                  <Youtube className="w-6 h-6" />
+                <a 
+  href="https://youtube.com/@aqnizar?si=6X7OBNj2QdzdoGHO" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="p-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-orange-500 hover:text-black transition-all"
+>
+  <Youtube className="w-6 h-6" />
                 </a>
-                <a href="#" className="p-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-orange-500 hover:text-black transition-all">
-                  <Instagram className="w-6 h-6" />
-                </a>
+                <a 
+  href="https://www.instagram.com/director.aqnizar?igsh=MWh2dzM1ZGp1bWlkZA==" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="p-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-orange-500 hover:text-black transition-all"
+>
+  <Instagram className="w-6 h-6" />
+</a>
               </div>
             </motion.div>
 
@@ -83,7 +93,7 @@ export function About() {
 
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-lg bg-black">
                 <img
-                  src="https://via.placeholder.com/600x400"
+                  src={mentor}
                   alt="Mentor"
                   className="w-full h-auto object-cover"
                 />
@@ -108,5 +118,5 @@ export function About() {
       </section>
 
     </div>
-  );
+  )
 }
