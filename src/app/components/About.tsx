@@ -41,7 +41,7 @@ export function About() {
               </div>
 
               <div className="text-lg text-neutral-300 leading-relaxed space-y-2">
-  <p>Al Quayum</p>
+  <p>Al Qayum Nizar</p>
   <p>Filmmaker | Creator | Storytelling Coach 📽</p>
   <p>5+ yrs in narration | Film educator 🎥</p>
   <p className="text-orange-400 font-semibold">
